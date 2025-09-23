@@ -31,3 +31,29 @@ header, footer{
     background-color:  #2a2a2a;
     border: 1px solid #333333;
 }
+
+/* Header Styling*/ 
+header h1, header nav {
+    margin: 0.5em;
+    display: inline-block;
+}
+
+header h1 {
+    color: #00aaff;
+}
+
+header li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0em 1em 0em 1em;
+}
+header a {
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 16px;
+}
+
+header a:hover {
+    color: #00aaff;
+    text-decoration: underline;
+}

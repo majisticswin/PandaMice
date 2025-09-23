@@ -155,3 +155,40 @@ hr {
     color: #00aaff;
     text-decoration: underline;
 }
+
+/* Media Query for responsive design */
+@media (max-width: 600px) {
+
+    header h1 {
+        display: block;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    header nav {
+        display: block;
+        text-align: center;
+        margin: 0.5em 1em;
+    }
+
+    header li {
+        text-align: center;
+        margin: 0em 2em;
+    }
+
+    .job-position {
+        width: 90%;
+    }
+
+    .job-position ol {
+        margin: 0em 1em;
+
+    }
+
+    .sidebar {
+        width: 90%;
+        float: none;
+        margin: 1em 0em 1em 0.5em;
+    }
+
+}

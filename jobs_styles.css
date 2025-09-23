@@ -10,3 +10,14 @@ Last modified: 23/09/2025
 
 Description: CSS sheet for jobs.html
 */
+
+/*General Body Styling*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0em;
+    padding: 0em;
+    background-color: #1a1a1a;
+    color: #cccccc;
+    line-height: 1.6;
+}

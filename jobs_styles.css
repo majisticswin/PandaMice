@@ -1,0 +1,194 @@
+/*
+
+Filename: Disha Anchan
+
+Author: Disha Anchan
+
+Created: 11/09/2025
+
+Last modified: 23/09/2025
+
+Description: CSS sheet for jobs.html
+*/
+
+/*General Body Styling*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0em;
+    padding: 0em;
+    background-color: #1a1a1a;
+    color: #cccccc;
+    line-height: 1.6;
+}
+
+/*General Styling for Footer and Header*/
+
+header, footer{
+    clear: both;
+    margin: 0em;
+    padding: 0.3em;
+    background-color:  #2a2a2a;
+    border: 1px solid #333333;
+}
+
+/* Header Styling*/ 
+header h1, header nav {
+    margin: 0.5em;
+    display: inline-block;
+}
+
+header h1 {
+    color: #00aaff;
+}
+
+header li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0em 1em 0em 1em;
+}
+header a {
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 16px;
+}
+
+header a:hover {
+    color: #00aaff;
+    text-decoration: underline;
+}
+
+/*Main Content Styling*/
+
+main {
+    margin: 0.3em 3em;
+    padding: 2em 2em 0.5em;
+    background-color:  #2a2a2a;
+    border: 1px solid #333333;
+    border-radius: 1em;
+}
+
+main h2 {
+    display: inline-block;
+    color:  #00aaff;
+    margin: 0.5em 0em;
+    font-size: 28px;
+}
+
+.job-position {
+    width: 70%;
+    margin: 0em;
+    padding: 0em 1em;
+}
+
+
+.job-position h3 {
+    color: #00aaff;
+    display: inline-block;
+    font-size: 24px;
+    margin: 0em;
+    padding: 0em;
+}
+
+.job-position h4 {
+    color:  #00aaff;
+    font-size: 20px;
+    margin: 1em 1em 0.5em;
+    
+}
+
+.job-position strong {
+    color:  #00aaff;
+    margin: 0em 0.5em 0em 1em;
+    
+}
+
+.job-position ol {
+    margin: 0em 3em;
+    padding: 0em 2em;
+}
+
+.job-position ul {
+    display: inline-block;    
+}
+
+.job-position p {
+    margin: 0em 1em;
+}
+
+/* Styling the Horizontal Line*/
+hr {
+    width: 70;
+    border: 0.5px solid #333333;
+    margin: 2em 0em;
+}
+
+/*Sidebar Styling*/
+
+.sidebar {
+    width: 25%;
+    float: right;
+    padding: 0.5em 0.5em 0.5em;
+    margin: 4em 0.5em 0em 0.5em;
+    border-radius: 1em;
+    background-color: #333333;
+}
+
+.sidebar h2 {
+    color: #00aaff;
+    font-size: 18px;
+    margin: 0.5em 0.5em 0em;
+    padding: 0em;
+}
+
+.sidebar li {
+    margin: 0.3em 0em;
+    padding: 0em;
+    list-style-type: disc;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #cccccc;
+}
+.sidebar a:hover {
+    color: #00aaff;
+    text-decoration: underline;
+}
+
+/* Media Query for responsive design */
+@media (max-width: 600px) {
+
+    header h1 {
+        display: block;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    header nav {
+        display: block;
+        text-align: center;
+        margin: 0.5em 1em;
+    }
+
+    header li {
+        text-align: center;
+        margin: 0em 2em;
+    }
+
+    .job-position {
+        width: 90%;
+    }
+
+    .job-position ol {
+        margin: 0em 1em;
+
+    }
+
+    .sidebar {
+        width: 90%;
+        float: none;
+        margin: 1em 0em 1em 0.5em;
+    }
+
+}

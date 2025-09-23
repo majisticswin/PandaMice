@@ -74,3 +74,44 @@ main h2 {
     margin: 0.5em 0em;
     font-size: 28px;
 }
+
+.job-position {
+    width: 70%;
+    margin: 0em;
+    padding: 0em 1em;
+}
+
+
+.job-position h3 {
+    color: #00aaff;
+    display: inline-block;
+    font-size: 24px;
+    margin: 0em;
+    padding: 0em;
+}
+
+.job-position h4 {
+    color:  #00aaff;
+    font-size: 20px;
+    margin: 1em 1em 0.5em;
+    
+}
+
+.job-position strong {
+    color:  #00aaff;
+    margin: 0em 0.5em 0em 1em;
+    
+}
+
+.job-position ol {
+    margin: 0em 3em;
+    padding: 0em 2em;
+}
+
+.job-position ul {
+    display: inline-block;    
+}
+
+.job-position p {
+    margin: 0em 1em;
+}

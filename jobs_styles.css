@@ -115,3 +115,10 @@ main h2 {
 .job-position p {
     margin: 0em 1em;
 }
+
+/* Styling the Horizontal Line*/
+hr {
+    width: 70;
+    border: 0.5px solid #333333;
+    margin: 2em 0em;
+}

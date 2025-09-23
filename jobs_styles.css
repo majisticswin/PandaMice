@@ -57,3 +57,20 @@ header a:hover {
     color: #00aaff;
     text-decoration: underline;
 }
+
+/*Main Content Styling*/
+
+main {
+    margin: 0.3em 3em;
+    padding: 2em 2em 0.5em;
+    background-color:  #2a2a2a;
+    border: 1px solid #333333;
+    border-radius: 1em;
+}
+
+main h2 {
+    display: inline-block;
+    color:  #00aaff;
+    margin: 0.5em 0em;
+    font-size: 28px;
+}

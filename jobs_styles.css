@@ -24,36 +24,61 @@ body {
 
 /*General Styling for Footer and Header*/
 
-header, footer{
-    clear: both;
-    margin: 0em;
-    padding: 0.3em;
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
     background-color:  #2a2a2a;
     border: 1px solid #333333;
 }
 
-/* Header Styling*/ 
-header h1, header nav {
-    margin: 0.5em;
+/* Header Styling*/
+.job-head {
     display: inline-block;
+    width: 75px;
+    padding: 0em;
+    margin: 0em;
 }
 
-header h1 {
-    color: #00aaff;
+.job-head img {
+    display: inline-block;
+    width: 100%;
+    padding: 0em;
+    margin: 0em;
 }
 
-header li {
+.job-head a {
     display: inline-block;
+    padding: 0em;
+    margin: 0em;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0em 0.3em;
+    margin: 0em;
+
+}
+
+.menu ul{
+    display: contents;
+}
+
+.menu li {
+    display: inline-flex;
     list-style-type: none;
-    margin: 0em 1em 0em 1em;
+    margin: 0em 1em;
 }
-header a {
+
+.header a {
     text-decoration: none;
     color: #cccccc;
     font-size: 16px;
 }
 
-header a:hover {
+.header a:hover {
     color: #00aaff;
     text-decoration: underline;
 }
@@ -68,64 +93,16 @@ main {
     border-radius: 1em;
 }
 
-main h2 {
+main h1 {
     display: inline-block;
     color:  #00aaff;
     margin: 0.5em 0em;
     font-size: 28px;
 }
 
-.job-position {
-    width: 70%;
-    margin: 0em;
-    padding: 0em 1em;
-}
+/*Aside  Element Styling*/
 
-
-.job-position h3 {
-    color: #00aaff;
-    display: inline-block;
-    font-size: 24px;
-    margin: 0em;
-    padding: 0em;
-}
-
-.job-position h4 {
-    color:  #00aaff;
-    font-size: 20px;
-    margin: 1em 1em 0.5em;
-    
-}
-
-.job-position strong {
-    color:  #00aaff;
-    margin: 0em 0.5em 0em 1em;
-    
-}
-
-.job-position ol {
-    margin: 0em 3em;
-    padding: 0em 2em;
-}
-
-.job-position ul {
-    display: inline-block;    
-}
-
-.job-position p {
-    margin: 0em 1em;
-}
-
-/* Styling the Horizontal Line*/
-hr {
-    width: 70%;
-    border: 0.5px solid #333333;
-    margin: 2em 0em;
-}
-
-/*Sidebar Styling*/
-
-.sidebar {
+.join-us {
     width: 25%;
     float: right;
     padding: 0.5em 0.5em 0.5em;
@@ -134,26 +111,147 @@ hr {
     background-color: #333333;
 }
 
-.sidebar h2 {
+.join-us h2 {
     color: #00aaff;
     font-size: 18px;
     margin: 0.5em 0.5em 0em;
     padding: 0em;
 }
 
-.sidebar li {
+.join-us li {
     margin: 0.3em 0em;
     padding: 0em;
     list-style-type: disc;
 }
 
-.sidebar a {
-    text-decoration: none;
+/* Job Description Layout */
+
+.job-position {
+    width: 70%;
+    margin: 0em;
+    padding: 0em 1em;
+}
+
+.job-position h2 {
+    color: #00aaff;
+    display: inline-block;
+    font-size: 24px;
+    margin: 0em;
+    padding: 0em;
+}
+
+.job-details h3, .job-desc h3, .key-resp h3, .job-req h3, .job-req h4 {
+    color:  #00aaff;
+    font-size: 20px;
+    margin: 1em 1em 0.5em;
+}
+
+.job-details strong {
+    color:  #00aaff;
+    margin: 0em 0.5em 0em 1em;
+    
+}
+
+.key-resp ol {
+    margin: 0em 3em;
+    padding: 0em 2em;
+}
+
+.job-req h5 {
+    color:  #00aaff;
+    font-size: 18px;
+    margin: 1em 1em 0.5em;
+}
+
+.job-req ul {
+    display: inline-block; 
+}
+
+.job-position p {
+    margin: 0em 1em;
+}
+
+/* Apply now Button */
+
+.apply-btn button{
+    border-radius: 0.7em;
+    background-color: #00aaff;
+    color: #cccccc;
+    margin: 0em;
+    padding: 1.2em;
+    font-size: 18px;
+    border: 1px solid white;
+}
+
+.apply-btn button:hover {
+    background-color: blue;
+}
+
+.apply-btn {
+    display: inline-block;
+    margin: 1em 0em 0em;
+
+}
+
+.footer {
+    background-color:  #2a2a2a;
+    border: 1px solid #333333;
+    padding: 0.5em;
+    
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 5px;
+    justify-content: space-evenly;
+}
+
+.footerobj {
+    font-size: 14px;
+    color: #cccccc;
+    margin: 0em;
+    padding: 0em;
+    text-align: center;
+}
+
+.footerobj h4 {
+    font-size: 16px;
+    color: #cccccc;
+    margin: 0em;
+    padding: 0em;
+    text-align: center;
+}
+
+.footerobj a, .footerbottom a {
     color: #cccccc;
 }
-.sidebar a:hover {
-    color: #00aaff;
-    text-decoration: underline;
+
+.footerobj a:hover, .footerbottom a:hover {
+    color:#00aaff;
+
+}
+
+.footerbottom {
+    grid-column: 1 / 4;
+    display: grid;
+    grid-template-columns: 86% 7% 7%;
+    grid-gap: 5px;
+}
+
+.footerbottom hr  {
+    width: 100%;
+    border: 0.5px solid #333333;
+    margin: 2em 0em;
+    grid-column: 1/4;
+    margin: 0em 0em;
+}
+
+.footerbottom p:nth-child(1) {
+    display: inline-flex;
+    text-align: left;
+}
+
+.footerbottom p:nth-child(2), .footerbottom p:nth-child(2) {
+    display: inline-flex;
+    text-align: right;
 }
 
 /* Media Query for responsive design */
@@ -192,3 +290,4 @@ hr {
     }
 
 }
+

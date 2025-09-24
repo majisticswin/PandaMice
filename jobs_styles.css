@@ -17,8 +17,8 @@ body {
     font-size: 16px;
     margin: 0em;
     padding: 0em;
-    background-color: #1a1a1a;
-    color: #cccccc;
+    background-color: #0a0f1a;
+    color: #e7edf5;
     line-height: 1.6;
 }
 
@@ -28,30 +28,34 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 0.5em;
-    background-color:  #2a2a2a;
-    border: 1px solid #333333;
+    background-color:  #0f1626;
+    border: 1px solid #233142;
 }
 
 /* Header Styling*/
-.job-head {
-    display: inline-block;
-    width: 75px;
-    padding: 0em;
-    margin: 0em;
+.header-inner {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 0.75rem 0rem;
 }
 
-.job-head img {
-    display: inline-block;
-    width: 100%;
-    padding: 0em;
-    margin: 0em;
+.brand { display: inline-flex; align-items: center; gap: 0.75rem; text-decoration: none; color: inherit; }
+.brand-text { display: grid; }
+.brand-name { font-weight: 700; letter-spacing: 0.2px; }
+.brand-slogan { font-size: 0.9rem; color: var(--muted); }
+
+.header a {
+    text-decoration: none;
+    color: #e7edf5;
+    font-size: 16px;
 }
 
-.job-head a {
-    display: inline-block;
-    padding: 0em;
-    margin: 0em;
+.header a:hover {
+    color: #00e5ff;
+    text-decoration: underline;
 }
+
 
 .menu {
     display: flex;
@@ -72,30 +76,18 @@ body {
     margin: 0em 1em;
 }
 
-.header a {
-    text-decoration: none;
-    color: #cccccc;
-    font-size: 16px;
-}
-
-.header a:hover {
-    color: #00aaff;
-    text-decoration: underline;
-}
-
 /*Main Content Styling*/
 
 main {
-    margin: 0.3em 3em;
+    margin: 0em;
     padding: 2em 2em 0.5em;
-    background-color:  #2a2a2a;
-    border: 1px solid #333333;
-    border-radius: 1em;
+    background-color:   #0a0f1a;
+    border: 1px solid #233142;
 }
 
 main h1 {
     display: inline-block;
-    color:  #00aaff;
+    color:  #e7edf5;
     margin: 0.5em 0em;
     font-size: 28px;
 }
@@ -108,11 +100,12 @@ main h1 {
     padding: 0.5em 0.5em 0.5em;
     margin: 4em 0.5em 0em 0.5em;
     border-radius: 1em;
-    background-color: #333333;
+    background-color:#0a0f1a;
+    border: #00e5ff 1px solid;
 }
 
 .join-us h2 {
-    color: #00aaff;
+    color: #e7edf5;
     font-size: 18px;
     margin: 0.5em 0.5em 0em;
     padding: 0em;
@@ -133,7 +126,7 @@ main h1 {
 }
 
 .job-position h2 {
-    color: #00aaff;
+    color: #e7edf5;
     display: inline-block;
     font-size: 24px;
     margin: 0em;
@@ -141,13 +134,13 @@ main h1 {
 }
 
 .job-details h3, .job-desc h3, .key-resp h3, .job-req h3, .job-req h4 {
-    color:  #00aaff;
+    color:  #e7edf5;
     font-size: 20px;
     margin: 1em 1em 0.5em;
 }
 
 .job-details strong {
-    color:  #00aaff;
+    color:  #e7edf5;
     margin: 0em 0.5em 0em 1em;
     
 }
@@ -158,7 +151,7 @@ main h1 {
 }
 
 .job-req h5 {
-    color:  #00aaff;
+    color:  #e7edf5;
     font-size: 18px;
     margin: 1em 1em 0.5em;
 }
@@ -176,15 +169,15 @@ main h1 {
 .apply-btn button{
     border-radius: 0.7em;
     background-color: #00aaff;
-    color: #cccccc;
+    color: #e7edf5;
     margin: 0em;
     padding: 1.2em;
     font-size: 18px;
-    border: 1px solid white;
+    border: 1px solid #233142;
 }
 
 .apply-btn button:hover {
-    background-color: blue;
+    background-color: ;
 }
 
 .apply-btn {
@@ -194,8 +187,8 @@ main h1 {
 }
 
 .footer {
-    background-color:  #2a2a2a;
-    border: 1px solid #333333;
+    background-color:  #0f1626;
+    border: 1px solid #233142;
     padding: 0.5em;
     
     display: grid;
@@ -206,7 +199,7 @@ main h1 {
 
 .footerobj {
     font-size: 14px;
-    color: #cccccc;
+    color: #e7edf5;
     margin: 0em;
     padding: 0em;
     text-align: center;
@@ -214,18 +207,18 @@ main h1 {
 
 .footerobj h4 {
     font-size: 16px;
-    color: #cccccc;
+    color: #e7edf5;
     margin: 0em;
     padding: 0em;
     text-align: center;
 }
 
 .footerobj a, .footerbottom a {
-    color: #cccccc;
+    color: #e7edf5;
 }
 
 .footerobj a:hover, .footerbottom a:hover {
-    color:#00aaff;
+    color: #e7edf5;
 
 }
 
@@ -238,7 +231,7 @@ main h1 {
 
 .footerbottom hr  {
     width: 100%;
-    border: 0.5px solid #333333;
+    border: 0.5px solid ;
     margin: 2em 0em;
     grid-column: 1/4;
     margin: 0em 0em;

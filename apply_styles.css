@@ -1,0 +1,183 @@
+/* filename: apply_styles.css
+   author: Can Sang
+   description: Styling for apply.html only */
+
+/* Reset + default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+body {
+    background-color: white;
+    line-height: 1.6;
+}
+
+/* Text alignment */
+.text-center {
+    text-align: center;
+}
+
+/* ---------------- Header ---------------- */
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #e3e1dc;
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.logo-container {
+    padding: 0 15px;
+    display: flex;
+    background-color: #111;
+    align-items: center;
+    height: 100%;
+}
+.logo-container img {
+    height: 35px;
+    object-fit: contain;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    flex-grow: 1;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    background-color: #e3e1dc;
+}
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    padding: 6px 8px;
+}
+.menu a:hover {
+    border-radius: 6px;
+    background-color: grey;
+    color: white;
+}
+
+/* ---------------- Form ---------------- */
+.job_apply_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em auto;
+    width: 100%;
+    max-width: 600px;
+}
+
+fieldset {
+    margin: 1.5em 0;
+    padding: 1em 2em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    min-width: 200px;
+    background-color: #f9f9f9;
+}
+legend {
+    font-size: 1.25em;
+    padding: 0.25em;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.legend_2 {
+    font-size: 1.25em;
+    color: black;
+}
+
+label {
+    display: block;
+    margin-top: 1em;
+}
+label:first-of-type { margin-top: 0; }
+
+/* Inputs */
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type=text],
+input[type=email],
+input[type=date] {
+    background-color: #f1f1f1;
+    color: #000;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=date]:focus {
+    background-color: white;
+    border: 2px solid #555;
+    outline: none;
+}
+textarea {
+    resize: none;
+    height: 120px;
+    background-color: #f8f8f8;
+}
+
+/* Dropdown */
+select {
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+/* Buttons */
+.buttonfix1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 16px;
+}
+.btn, input[type=submit], input[type=reset] {
+    background-color: #03346e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn:hover, input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #0248a0;
+}
+
+/* ---------------- Footer ---------------- */
+.footer {
+    background-color: #e1e1e1;
+    text-align: left;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+}
+.objfooter {
+    margin-top: 20px;
+}
+.objfooter h3 {
+    margin-bottom: 10px;
+}
+.email, .link, .megaphonetelephone {
+    margin-bottom: 10px;
+}

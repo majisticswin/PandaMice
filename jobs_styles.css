@@ -80,7 +80,26 @@ body {
     padding: 0em;
 }
 
+.menu li:nth-child(2) {
+    border: #00e5ff 2px solid;
+    border-radius: 0.5em;
+}
 
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: #e7edf5;
+    font-size: 16px;
+    margin: 0em;
+    padding: 0.3em 0.75em;
+}
+
+.menu a:hover {
+    color: #90c5cb;
+    background-color: #233142;
+    border-radius: 0.5em;
+
+}
 
 /*Main Content Styling*/
 

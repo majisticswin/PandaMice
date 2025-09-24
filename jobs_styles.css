@@ -27,7 +27,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 0.75em 0.5em 0.3em 1.5em;
+    padding: 0.75em 13em;
     background-color:  #0f1626;
     border: 1px solid #233142;
 }
@@ -191,25 +191,30 @@ main h1 {
 
 /* Apply now Button */
 
-.apply-btn button{
-    border-radius: 0.7em;
-    background-color: #00aaff;
-    color: #e7edf5;
-    margin: 0em;
-    padding: 1.2em;
-    font-size: 18px;
-    border: 1px solid #233142;
-}
-
-.apply-btn button:hover {
-    background-color: #7c4dff;
-}
-
 .apply-btn {
     display: inline-block;
     margin: 1em 0em 0em;
 
 }
+
+.apply-btn button {
+    border-radius: 0.7em;
+    background: linear-gradient(90deg, #00e5ff, #7c4dff);
+    color: #001018;
+    margin: 0em;
+    padding: 1.2em;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #233142;
+
+}
+
+.apply-btn button:hover {
+    background: linear-gradient(90deg, #a4f3fd, #c8b5fc);
+    color: #233142;
+}
+
+
 
 .footer {
     background-color:  #0f1626;
@@ -245,7 +250,10 @@ main h1 {
 
 /* Media Query for responsive design */
 @media (max-width: 800px) {
-
+    .header {
+        width: 50%;
+    }
+    
     header h1 {
         display: block;
         font-size: 28px;

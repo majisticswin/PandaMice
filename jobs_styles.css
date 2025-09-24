@@ -197,55 +197,26 @@ main h1 {
     justify-content: space-evenly;
 }
 
-.footerobj {
-    font-size: 14px;
-    color: #e7edf5;
-    margin: 0em;
-    padding: 0em;
-    text-align: center;
-}
+    /* Footer */
+    .site-footer {
+    border-top: 1px solid #233142;
+    background: #0b1220;
+    margin-top: 3rem;
+    }
 
-.footerobj h4 {
-    font-size: 16px;
-    color: #e7edf5;
-    margin: 0em;
-    padding: 0em;
-    text-align: center;
-}
-
-.footerobj a, .footerbottom a {
-    color: #e7edf5;
-}
-
-.footerobj a:hover, .footerbottom a:hover {
-    color: #e7edf5;
-
-}
-
-.footerbottom {
-    grid-column: 1 / 4;
-    display: grid;
-    grid-template-columns: 86% 7% 7%;
-    grid-gap: 5px;
-}
-
-.footerbottom hr  {
-    width: 100%;
-    border: 0.5px solid ;
-    margin: 2em 0em;
-    grid-column: 1/4;
-    margin: 0em 0em;
-}
-
-.footerbottom p:nth-child(1) {
-    display: inline-flex;
-    text-align: left;
-}
-
-.footerbottom p:nth-child(2), .footerbottom p:nth-child(2) {
-    display: inline-flex;
-    text-align: right;
-}
+    .footer-inner { 
+        padding: 1rem 0 2rem; 
+    }
+    .footer-links { 
+        list-style: none; 
+        padding: 0; 
+        margin: 0.25rem 0 0; 
+        display: flex; 
+        gap: 1rem;
+    }
+    .footer-links a, .site-footer a { 
+        color: #00e5ff
+    }
 
 /* Media Query for responsive design */
 @media (max-width: 800px) {

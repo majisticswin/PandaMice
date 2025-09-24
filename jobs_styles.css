@@ -26,8 +26,8 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
-    padding: 0.75em 13em;
+    justify-content: space-around;
+    padding: 0.75em 0em;
     background-color:  #0f1626;
     border: 1px solid #233142;
 }
@@ -42,7 +42,7 @@ body {
 .header-brand {
     display: inline-flex; 
     align-items: end;
-    gap: 0.75rem;
+    gap: 0.75em;
     text-decoration: none;
     color: #e7edf5;
 }
@@ -249,42 +249,8 @@ main h1 {
     }
 
 /* Media Query for responsive design */
-@media (max-width: 800px) {
-    .header {
-        width: 50%;
-    }
-    
-    header h1 {
-        display: block;
-        font-size: 28px;
-        text-align: center;
-    }
+@media (max-width: 650px) {
 
-    header nav {
-        display: block;
-        text-align: center;
-        margin: 0.5em 1em;
-    }
-
-    header li {
-        text-align: center;
-        margin: 0em 2em;
-    }
-
-    .job-position {
-        width: 90%;
-    }
-
-    .job-position ol {
-        margin: 0em 1em;
-
-    }
-
-    .sidebar {
-        width: 90%;
-        float: none;
-        margin: 1em 0em 1em 0.5em;
-    }
 
 }
 

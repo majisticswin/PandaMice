@@ -27,7 +27,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 0.5em;
+    padding: 0.75em 0.5em 0.3em 1.5em;
     background-color:  #0f1626;
     border: 1px solid #233142;
 }
@@ -37,25 +37,28 @@ body {
     display: flex;
     align-items: center; 
     justify-content: space-between;
-    padding: 0.75rem 0rem;
 }
 
-.brand { display: inline-flex; align-items: center; gap: 0.75rem; text-decoration: none; color: inherit; }
-.brand-text { display: grid; }
-.brand-name { font-weight: 700; letter-spacing: 0.2px; }
-.brand-slogan { font-size: 0.9rem; color: var(--muted); }
-
-.header a {
+.header-brand {
+    display: inline-flex; 
+    align-items: end;
+    gap: 0.75rem;
     text-decoration: none;
     color: #e7edf5;
-    font-size: 16px;
 }
 
-.header a:hover {
-    color: #00e5ff;
-    text-decoration: underline;
+.header-text { 
+    display: grid;
 }
 
+.header-name { 
+    font-weight: 700; 
+    letter-spacing: 0.2px; 
+}
+.header-slogan { 
+    font-size: 0.9rem; 
+    color: #a8b3c7
+}
 
 .menu {
     display: flex;
@@ -73,8 +76,11 @@ body {
 .menu li {
     display: inline-flex;
     list-style-type: none;
-    margin: 0em 1em;
+    margin: 0em 0.5em;
+    padding: 0em;
 }
+
+
 
 /*Main Content Styling*/
 

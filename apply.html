@@ -40,6 +40,25 @@
        <h1 class="text-center">Job Application</h1>
        <!--Form Begin -->
        <form method="post" action="http://mercury.swin.edu.au/it000000/formtest.php">
-        
+        <!-- Personal Information -->
+        <fieldset class="job_apply_page grey_content_section">
+          <legend class="legend_2">Personal Information</legend>
+          <p>
+            <label for="jobref">Job Reference Number</label>
+            <input type="text" id="jobref" name="jobref" maxlength="5" required />
+          </p>
+          <p>
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname" maxlength="20" required />
+          </p>
+          <p>
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" name="lastname" maxlength="20" required />
+          </p>
+          <p>
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" required />
+          </p>
+        </fieldset>       
        </form>
      </main>

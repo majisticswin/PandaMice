@@ -236,7 +236,7 @@ main h1 {
 
 .apply-btn {
     display: inline-block;
-    margin: 1em 0em 0em;
+    margin: 1em 3em 0em;
 
 }
 
@@ -278,7 +278,7 @@ main h1 {
     }
 
     .footer-inner { 
-        padding: 1em 0em 2em; 
+        padding: 2em 6em 2em; 
     }
     .footer-links { 
         list-style: none; 

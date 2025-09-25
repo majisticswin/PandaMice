@@ -1,3 +1,15 @@
+/*
+
+Filename: Can Van Sang
+
+Author: Can Van Sang
+
+Created: 12/09/2025
+
+Last modified: 25/09/2025
+
+Description: CSS sheet for applys.html
+*/
 /* Root variables */
 :root {
   --bg: #0a0f1a;
@@ -20,7 +32,13 @@ body {
   color: var(--text);
   background: var(--bg);
 }
-
+.site-main {
+  padding: 1rem;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+}
 .container {
   width: min(1100px, 92%);
   margin: 0 auto;

@@ -1,8 +1,11 @@
+<<<<<<< Updated upstream
 /* ==========================================================================
    Panda Mice Careers Site Styles
    Author: Mitul Joarder | Student ID: 105980686 | Date: Sept 2025
    Description: Unified CSS for all site pages (About, Jobs, Apply, Index).
    ========================================================================== */
+=======
+>>>>>>> Stashed changes
 
 /* Root variables */
 :root {
@@ -92,6 +95,7 @@ body {
 .footer-links { list-style: none; padding: 0; margin: 0.25rem 0 0; display: flex; gap: 1rem; }
 .footer-links a { color: var(--accent); }
 
+<<<<<<< Updated upstream
 /* Jobs page */
 .site-main h1 { margin-top: 1.25rem; }
 article section {
@@ -132,6 +136,8 @@ article section {
 }
 .fun-table tbody tr:hover { background: #0f1728; }
 
+=======
+>>>>>>> Stashed changes
 /* Apply page forms */
 .form-grid {
   display: grid;

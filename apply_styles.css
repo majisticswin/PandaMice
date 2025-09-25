@@ -1,6 +1,7 @@
+
 /* ==========================================================================
    Panda Mice Careers Site Styles
-   Author: Mitul Joarder | Student ID: 105980686 | Date: Sept 2025
+   Author: Mitul Joarder / Can Van Sang | Student ID: 105980686 / 105325766 | Date: 25 Sept 2025
    Description: Unified CSS for all site pages (About, Jobs, Apply, Index).
    ========================================================================== */
 
@@ -33,15 +34,6 @@ body {
 }
 
 .small { font-size: 0.9rem; color: var(--muted); }
-
-/* Skip link accessibility */
-.skip-link {
-  position: absolute; left: -999px; top: 0;
-  background: #111; color: #fff;
-  padding: 0.5rem 0.75rem; border: 2px solid #fff;
-  z-index: 1000;
-}
-.skip-link:focus { left: 0.5rem; top: 0.5rem; }
 
 /* Header & navigation */
 .site-header {
@@ -112,25 +104,6 @@ article section {
 .member { padding: 0.5rem 0; border-bottom: 1px dashed var(--border); }
 .member dt { font-weight: 700; }
 .student-id { float: right; color: var(--accent); }
-
-.fun-table {
-  width: 100%;
-  border-collapse: collapse;
-  border: 1px solid var(--border);
-}
-.fun-table caption { text-align: left; padding: 0.4rem 0; color: var(--muted); }
-.fun-table thead th {
-  font-weight: 700;
-  background: #121a2b;
-  color: #cfe9ff;
-  border-bottom: 2px solid #1f2a44;
-  padding: 0.6rem;
-}
-.fun-table tbody td {
-  padding: 0.6rem;
-  border-bottom: 1px solid #1a2338;
-}
-.fun-table tbody tr:hover { background: #0f1728; }
 
 /* Apply page forms */
 .form-grid {

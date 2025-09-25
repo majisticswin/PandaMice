@@ -10,29 +10,32 @@
     <title>Job Description</title>
 
         <!-- Link HTML to the CSS document -->
-    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="apply_styles.css">
+        <!-- Favicon for the tab -->
 </head>
 
 <body>
 
     <!-- Header Section -->
-  <header class="site-header">
+  <header class="site-header" role="banner">
     <div class="container header-inner">
-        <!-- Logo + Brand Text -->
-      <a href="index.html" class="brand">
-        <img src="Panda Mice-logo.png" alt="PandaMice Logo" />
-        PandaMice Careers
+      <a class="brand" href="index.html" aria-label="Panda Mice home">
+        <img src="Panda Mice-logo.png" alt="Panda Mice logo" width="56" height="56">
+        <span class="brand-text">
+          <span class="brand-name">Panda Mice</span>
+          <span class="brand-slogan">Play beyond the bounds</span>
+        </span>
       </a>
 
         <!-- Navigation Menu -->
-        <nav>
+        <nav class="site-nav" aria-label="Primary">
             <ul class="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="jobs.html">Jobs</a></li>
-                <li><a href="apply.html" class=""current">Apply</a></li>
+                <li><a href="apply.html" aria-current="page" class="current">Apply</a></li>
                 <li><a href="about.html">About</a></li>
             </ul>
-        </nav>
+        </nav> 
     </div>
     <!-- Main Content Section -->
      <main class="site-main container">
@@ -143,3 +146,15 @@
 
     </main>
     <!-- Main Content Section End -->
+       <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p><strong>Contact:</strong> <a href="mailto:info@pandamicegames.com">info@pandamicegames.com</a></p>
+      <ul class="footer-links">
+        <li><a href="https://pandamice.atlassian.net/jira/software/projects/AWPP1/boards/69/backlog?atlOrigin=eyJpIjoiY2ViNTFiM2YyZjMwNGFjYWI4M2I5MTg5MzJhM2MxNjQiLCJwIjoiaiJ9" rel="noopener">Jira</a></li>
+        <li><a href="https://github.com/majisticswin/PandaMice.git" rel="noopener">GitHub repository</a></li>
+      </ul>
+      <p class="small">© Panda Mice. Melbourne, Australia.</p>
+    </div>
+  </footer>
+  </body>
+</html>

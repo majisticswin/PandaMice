@@ -70,7 +70,7 @@ body {
 
 /* -----  Company Name Styling ----- */
 .header-slogan { 
-    font-size: 0.9rem; 
+    font-size: 0.9em; 
     color: #a8b3c7
 }
 
@@ -210,7 +210,7 @@ main h1 {
 
 /*  ===========  "Key Responsibilities" Section  Styling  =========== */
 
-/*  */
+
 .key-resp ol {
     margin: 0em 3em;
     padding: 0em 2em;
@@ -263,7 +263,7 @@ main h1 {
     background-color:  #0f1626;
     border: 1px solid #233142;
     padding: 0.5em;
-    margin: 2em;;
+    margin: 2em;
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-gap: 5px;
